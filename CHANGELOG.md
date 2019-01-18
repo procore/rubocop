@@ -2,6 +2,10 @@
 
 ## master (unreleased)
 
+### Bug fixes
+
+* [#6382](https://github.com/rubocop-hq/rubocop/issues/6382): Fix `Layout/IndentationWidth` with `Layout/EndAlignment` set to start_of_line. ([@dischorde][], [@siegfault][], [@mhelmetag][])
+
 ## 0.59.2 (2018-09-24)
 
 ### Bug fixes
@@ -182,7 +186,7 @@
 * [#5881](https://github.com/rubocop-hq/rubocop/pull/5881): Add new `Rails/BulkChangeTable` cop. ([@wata727][])
 * [#5444](https://github.com/rubocop-hq/rubocop/pull/5444): Add new `Style/AccessModifierDeclarations` cop. ([@brandonweiss][])
 * [#5803](https://github.com/rubocop-hq/rubocop/issues/5803): Add new `Style/UnneededCondition` cop. ([@balbesina][])
-* [#5406](https://github.com/rubocop-hq/rubocop/issues/5406): Add new `Layout/ClosingHeredocIndentation` cop. ([@siggymcfried][])
+* [#5406](https://github.com/rubocop-hq/rubocop/issues/5406): Add new `Layout/ClosingHeredocIndentation` cop. ([@siegfault][])
 * [#5823](https://github.com/rubocop-hq/rubocop/issues/5823): Add new `slashes` style to `Rails/FilePath` since Ruby accepts forward slashes even on Windows. ([@sunny][])
 * New cop `Layout/LeadingBlankLines` checks for empty lines at the beginning of a file. ([@rrosenblum][])
 
@@ -479,7 +483,7 @@
 * [#5177](https://github.com/rubocop-hq/rubocop/pull/5177): Add new `Rails/LexicallyScopedActionFilter` cop. ([@wata727][])
 * [#5173](https://github.com/rubocop-hq/rubocop/pull/5173): Add new `Style/EvalWithLocation` cop. ([@pocke][])
 * [#5208](https://github.com/rubocop-hq/rubocop/pull/5208): Add new `Rails/Presence` cop. ([@wata727][])
-* Allow auto-correction of ClassAndModuleChildren. ([@siggymcfried][], [@melch][])
+* Allow auto-correction of ClassAndModuleChildren. ([@siegfault][], [@melch][])
 
 ### Bug fixes
 
@@ -3526,7 +3530,7 @@
 [@walf443]: https://github.com/walf443
 [@reitermarkus]: https://github.com/reitermarkus
 [@chrishulton]: https://github.com/chrishulton
-[@siggymcfried]: https://github.com/siggymcfried
+[@siegfault]: https://github.com/siegfault
 [@melch]: https://github.com/melch
 [@nattfodd]: https://github.com/nattfodd
 [@flyerhzm]: https://github.com/flyerhzm
@@ -3596,3 +3600,5 @@
 [@ryanhageman]: https://github.com/ryanhageman
 [@autopp]: https://github.com/autopp
 [@lukasz-wojcik]: https://github.com/lukasz-wojcik
+[@dischorde]: https://github.com/dischorde
+[@mhelmetag]: https://github.com/mhelmetag
